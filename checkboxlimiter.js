@@ -55,7 +55,7 @@
 
   // Data API
 
-  $(window).load(function () {
+  $(window).ready(function () {
     $('.checkboxlimiter').each(function () {
       var $cl = $(this);
       $cl.checkboxlimiter($cl.data());
